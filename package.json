@@ -1,0 +1,17 @@
+{
+  "name": "webdiff",
+  "version": "1.0.0",
+  "description": "Tool to monitor webpages for changes",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrijs Minajevs",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^3.0.0",
+    "es6-promise": "^3.2.1",
+    "request": "^2.74.0"
+  }
+}

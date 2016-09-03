@@ -1,0 +1,9 @@
+/node_modules
+/typings
+/parseData
+
+*.html
+*.log
+*.txt
+
+src/config.ts
