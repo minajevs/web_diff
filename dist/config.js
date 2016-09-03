@@ -1,3 +1,4 @@
+"use strict";
 var OrtusConfig = (function () {
     function OrtusConfig() {
     }
@@ -7,5 +8,5 @@ var OrtusConfig = (function () {
     OrtusConfig.ORTUS_URL = "https://ortus.rtu.lv";
     OrtusConfig.CHECK_STRING = "Iziet";
     return OrtusConfig;
-})();
+}());
 exports.OrtusConfig = OrtusConfig;
